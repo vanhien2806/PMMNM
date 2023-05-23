@@ -1,0 +1,21 @@
+<odoo>
+    <data>
+        <record id="user_form_view" model="ir.ui.view">
+            <fields name="name">Nguoi Dung</fields>
+            <fields name="model">kho.user</fields>
+            <fields name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <fields name ="name"/>
+                            <fields name ="password"/>
+                            <fields name ="email"/>
+                            <fields name ="gender"/>
+                            <fields name ="phone"/>
+                        </group>
+                    </sheet>
+                </form>
+            </fields>
+        </record>
+    </data>
+</odoo>

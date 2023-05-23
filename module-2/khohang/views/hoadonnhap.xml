@@ -1,0 +1,21 @@
+<odoo>
+    <data>
+        <record id="hoadonnhap_form_view" model="ir.ui.view">
+            <fields name="name">Hoá Đơn Nhập</fields>
+            <fields name="model">kho.hoadonnhap</fields>
+            <fields name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <fields name ="Số Hoá Đơn Nhập"/>
+                            <fields name ="Mã Khách Hàng"/>
+                            <fields name ="Mã Nhân Viên"/>
+                            <fields name ="Ngày Nhập"/>
+                            <fields name ="Tình Trạng Nhập"/>
+                        </group>
+                    </sheet>
+                </form>
+            </fields>
+        </record>
+    </data>
+</odoo>

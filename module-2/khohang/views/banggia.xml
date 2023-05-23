@@ -1,0 +1,20 @@
+<odoo>
+    <data>
+        <record id="banggia_form_view" model="ir.ui.view">
+            <fields name="name">Bảng Giá</fields>
+            <fields name="model">kho.banggia</fields>
+            <fields name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <fields name ="Mã Giá"/>
+                            <fields name ="ID Kho"/>
+                            <fields name ="Mã Vị Trí"/>
+                            <fields name ="Đơn Giá Theo Tháng"/>
+                        </group>
+                    </sheet>
+                </form>
+            </fields>
+        </record>
+    </data>
+</odoo>

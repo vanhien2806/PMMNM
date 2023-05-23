@@ -1,0 +1,21 @@
+<odoo>
+    <data>
+        <record id="nhanvien_form_view" model="ir.ui.view">
+            <fields name="name">Nhân Viên</fields>
+            <fields name="model">kho.nhanvien</fields>
+            <fields name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <fields name ="Mã Nhân Viên"/>
+                            <fields name ="Tên Nhân Viên"/>
+                            <fields name ="Giới Tính"/>
+                            <fields name ="Ngày Sinh"/>
+                            <fields name ="Địa Chỉ"/>
+                        </group>
+                    </sheet>
+                </form>
+            </fields>
+        </record>
+    </data>
+</odoo>

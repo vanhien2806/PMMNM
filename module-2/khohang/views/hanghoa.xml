@@ -1,0 +1,22 @@
+<odoo>
+    <data>
+        <record id="hanghoa_form_view" model="ir.ui.view">
+            <fields name="name">Hàng Hoá</fields>
+            <fields name="model">kho.hanghoa</fields>
+            <fields name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <fields name ="Mã Hàng Hoá"/>
+                            <fields name ="Mã Loại"/>
+                            <fields name ="ID Kho"/>
+                            <fields name ="Mã Vị Trí"/>
+                            <fields name ="Mã Khách Hàng"/>
+                            <fields name ="Tên Hàng Hoá"/>
+                        </group>
+                    </sheet>
+                </form>
+            </fields>
+        </record>
+    </data>
+</odoo>

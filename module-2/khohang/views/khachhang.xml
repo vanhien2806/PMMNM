@@ -1,0 +1,20 @@
+<odoo>
+    <data>
+        <record id="khachhang_form_view" model="ir.ui.view">
+            <fields name="name">Khách Hàng</fields>
+            <fields name="model">kho.khachhang</fields>
+            <fields name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <fields name ="Mã Khách Hàng"/>
+                            <fields name ="Tên Khách Hàng"/>
+                            <fields name ="Địa Chỉ"/>
+                            <fields name ="SDT"/>
+                        </group>
+                    </sheet>
+                </form>
+            </fields>
+        </record>
+    </data>
+</odoo>
